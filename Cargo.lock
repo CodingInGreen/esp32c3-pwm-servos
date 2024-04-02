@@ -277,15 +277,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "esp32-test"
-version = "0.1.0"
-dependencies = [
- "esp-backtrace",
- "esp-hal",
- "esp-println",
-]
-
-[[package]]
 name = "esp32c2"
 version = "0.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -303,6 +294,15 @@ checksum = "4a7ee710c1e4f16b5e840cdfec3f4e7642b7517a877c5c4b7e1cafa9a14117c5"
 dependencies = [
  "critical-section",
  "vcell",
+]
+
+[[package]]
+name = "esp32c3-pwm-servos"
+version = "0.1.0"
+dependencies = [
+ "esp-backtrace",
+ "esp-hal",
+ "esp-println",
 ]
 
 [[package]]

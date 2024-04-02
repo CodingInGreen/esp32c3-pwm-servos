@@ -1,5 +1,5 @@
 [package]
-name = "esp32-test"
+name = "esp32c3-pwm-servos"
 version = "0.1.0"
 authors = ["Adam Hott <24814301+CodingInGreen@users.noreply.github.com>"]
 edition = "2021"
